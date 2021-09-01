@@ -50,13 +50,6 @@ label {
     margin-bottom: 10px;
 }
 
-input {
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1.5px solid #4F4F4F;;
-    border-radius: 5px;
-}
-
 #reset-password {
     display: block;
     text-align: right;
@@ -65,12 +58,8 @@ input {
 
 input[type='submit'] {
     text-align: center;
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
-    text-transform: uppercase;
-    font-weight: bold;
-    color: #4682B4;
+    width: 50%;    margin-bottom: 20px;
+
     border-color: #4682B4;
     cursor: pointer;
   
