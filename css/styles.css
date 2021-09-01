@@ -1,1 +1,108 @@
 /* Css geral */
+* {
+    padding: 0;
+    margin: 0;
+    color: #4F4F4F;
+    box-sizing: border-box;
+    border: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: url('../img/bg_unsplash.jpg');
+    background-size: cover;
+}
+
+a, label {
+    font-size: 1rem;
+}
+
+a:hover {
+    color: #1b1919;
+}
+
+textarea:focus, input:focus {
+    outline: none;
+}
+
+/* div-container-login */
+#div-container-login {
+    background: rgb(245, 210, 210);
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15vh;
+    border-radius: 5px;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+form {
+    margin: 30px 0;
+}
+label, input {
+    display: block;
+    text-align: left;
+    width: 100%;
+}
+label {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1.5px solid #4F4F4F;;
+    border-radius: 5px;
+}
+
+#reset-password {
+    display: block;
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+input[type='submit'] {
+    text-align: center;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #4682B4;
+    border-color: #4682B4;
+    cursor: pointer;
+  
+}
+
+input[type='submit']:hover {
+    background-color: #4682B4;
+    color: #d6c6c6;
+    transition: 0.5s;
+}
+
+#div-container-social, #div-container-social p {
+    margin-bottom: 20px;
+}
+
+#div-container-social i {
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    margin-left: 5px;
+    font-size: 2.5rem;
+    cursor: pointer;
+}
+
+#div-container-registrer p {
+    margin-bottom: 10px;
+}
+
+.bi-facebook {
+    color: #3B5998;
+}
+
+.bi-linkedin {
+    color: #0077b5;
+}
